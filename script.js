@@ -3,6 +3,6 @@ console.log(nama);
 
 
 let namaAwal = "Malicha";
-let namaAkhir = "laela rachmawati";
+let namaAkhir = "Laela";
 
 console.log(namaAwal);
