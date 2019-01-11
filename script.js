@@ -1,8 +1,3 @@
-let nama = "Malicha";
-console.log(nama);
-
-
-let namaAwal = "Malicha";
-let namaAkhir = "Laela";
-
-console.log(namaAwal);
+const interestRate = 0.5;
+interestRate = 2;
+console.log(interestRate)
