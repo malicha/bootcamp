@@ -1,3 +1,6 @@
-let favoritColor = ["maroon", "blue", "pink"];
-favoritColor[3] = 2;
-console.log(favoritColor)
+
+function greet(nama){
+    console.log('halo' + nama)
+}
+
+greet('malicha')
