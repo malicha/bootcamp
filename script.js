@@ -1,6 +1,8 @@
+//parameter => nilai yg kita miliki untuk di deklarasikan di dlm function 
+//argument => nilai pasokan aktual untuk itu
 
-function greet(nama){
-    console.log('halo' + nama)
+
+function hello(nama, namaAkhir){
+    console.log("hello"  + nama +  namaAkhir);
 }
-
-greet('malicha')
+hello("malicha", "laela")
