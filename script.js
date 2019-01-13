@@ -1,8 +1,12 @@
-//parameter => nilai yg kita miliki untuk di deklarasikan di dlm function 
-//argument => nilai pasokan aktual untuk itu
-
-
+//untuk menampilkan tugas/perintah di console
 function hello(nama, namaAkhir){
     console.log("hello"  + nama +  namaAkhir);
 }
-hello("malicha", "laela")
+
+//untuk menghitung
+
+
+function hitung(angka){
+ return angka * angka;
+}
+ console.log(hitung(5))
