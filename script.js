@@ -1,12 +1,12 @@
-//untuk menampilkan tugas/perintah di console
-function hello(nama, namaAkhir){
-    console.log("hello"  + nama +  namaAkhir);
-}
+let x = 10;
+let y = 3;
 
-//untuk menghitung
+//tambah
+// console.log(++x)
 
+// console.log(x++);
+// console.log(x);
 
-function hitung(angka){
- return angka * angka;
-}
- console.log(hitung(5))
+//kurang
+
+console.log(--x);
