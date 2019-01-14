@@ -1,12 +1,11 @@
-let x = 10;
-let y = 3;
+let x = 1;
 
-//tambah
-// console.log(++x)
+//operator lebih kecil lebih besar
+console.log(x > 0);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x <= 1);
 
-// console.log(x++);
-// console.log(x);
-
-//kurang
-
-console.log(--x);
+//operator persamaan
+console.log(x === 1);
+console.log(x !== 1);
