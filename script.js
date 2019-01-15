@@ -1,10 +1,23 @@
-// jika seorang pelanggan mempunyai lebih dari 100 point
-//mereka di kelompokan sbg pelanggal 'emas'
-//jika tidak mereka dikelompokan sbg pelanggan 'silver'
+//operator AND (&&) = semua nilai variable true, jika salah satu false maka outputnya false.
+// let highIncome = false;
+// let goodCreditsScore = true;
+// let malicha = true;
+// let eligibleForLoan = highIncome && goodCreditsScore && malicha;
+
+// console.log(eligibleForLoan);
 
 
-// let point = 120;
-let point = 80;
-let type = point > 100 ? 'emas' : 'silver';
 
-console.log(type);
+//operator OR (||) = wajib semua variable bernilai true, walaupun beberapa false
+let highIncome = false;
+let goodCreditsScore = true;
+let malicha = true;
+let eligibleForLoan = highIncome || goodCreditsScore || malicha;
+
+console.log('eligable', eligibleForLoan);
+
+
+//operator NOT (!) = kebalikan
+let aplication = !eligibleForLoan;
+console.log('aplication', aplication);
+
