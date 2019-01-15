@@ -1,14 +1,10 @@
+// jika seorang pelanggan mempunyai lebih dari 100 point
+//mereka di kelompokan sbg pelanggal 'emas'
+//jika tidak mereka dikelompokan sbg pelanggan 'silver'
 
-//sebuah pemenuhan kondisi/prosedur
-//type data dan value harus sama sama 
-// console.log(1 === 1);
 
-// //tipe data dengan value berbeda, tipe data string, value nya angka 1 outputnya false
+// let point = 120;
+let point = 80;
+let type = point > 100 ? 'emas' : 'silver';
 
-// console.log("1" === 1);
-
-//membandingkan
-console.log(1 == 1);
-
-//outputnya true karna biarpun tipe datanya brbeda dengan value nya, angkanya sama
-console.log("1" == 1);
+console.log(type);
