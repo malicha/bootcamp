@@ -1,10 +1,20 @@
+let bahasa = "bahasa indonesia"
 
-function film(age){
-if(age > 18){
-    console.log ("OK")
+switch(bahasa){
+    case "bahasa inggris":
+     teks = "this is english";
+     break;
+
+     case "bahasa jerman":
+     teks = "das ist deutsch";
+     break;
+
+     case "bahasa indonesia":
+     teks = "ini bahasa indonesia";
+     break;
+
+     default:
+     teks = "bahasa tidak diketahui";
 }
-else if(age < 18){
-    console.log ("NO")
-}
-}
-film(80);
+
+document.getElementById("hasil").innerHTML = teks;
