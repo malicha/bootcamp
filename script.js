@@ -1,9 +1,11 @@
+var i = 0;
+var j = 10;
 
-for(let i=0; i< 10; i++){
-    if(i % 2 !== 0){
-    console.log(i + "genap");
+while(i <= j){
+    if(i % 2 == 0){
+        console.log(i + "genap")
     }else{
         console.log(i + "ganjil");
-    }
+    } i++;
 }
-   
+
